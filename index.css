@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #eff2cc;
+}
+
+.wrap {
+    position: absolute;
+    width: 90%;
+    max-width: 37em;
+    background-color: #ffffff;
+    padding: 7em 3em;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    border-radius: 1em;
+}
+
+.controls-container {
+    background-color: #eff2cc;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    top: 0;
+}
+
+#start {
+    font-size: 1.2em;
+    padding: 1em 3em;
+    background-color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 2em;
+    cursor: pointer;
+}
+
+#letter-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8em 0.4em;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+#letter-container button {
+    background-color: #ffffff;
+    border: 2px solid black;
+    color: black;
+    outline: none;
+    border-radius: 0.3em;
+    cursor: pointer;
+    height: 3em;
+    width: 3em;
+}
+
+#letter-container .correct {
+    background-color: #9ef988;
+    color: #ffffff;
+    border: 2px solid #9ef988;
+}
+
+#letter-container .incorrect {
+    background-color: #f98b88;
+    color: #ffffff;
+    border: 2px solid #f98b88;
+}
+
+.hint-ref {
+    margin-bottom: 1em;
+}
+
+.hint-ref span {
+    font-weight: 600;
+}
+
+#chanceCount {
+    margin: 1em 0;
+    position: absolute;
+    top: 0.62em;
+    right: 2em;
+}
+
+#word {
+    font-weight: 600;
+    margin: 1em 0 2em 0;
+}
+
+#word span {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.hide {
+    display: none;
+}
+
+#score-display {
+    margin-top: 15px;
+    margin-left: 15px;
+    font-family: montserrat;
+}
+
+#rules {
+    margin-top: 25px;
+    margin-left: 15px;
+    font-family: montserrat;
+}
+
+.persen {
+    margin-top: 15px;
+    margin-left: 35px;
+    font-size: 20px;
+    font-family: poppins;
+
+}
+.persen1 {
+    text-align: start;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 15px;
+    font-family: poppins;
+
+}
+
+@media screen and (max-width: 600px ) {
+    .kontener {
+        margin-top: 700px;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 888px)   {
+    .kontener {
+        margin-top: 600px;
+    }
+}
+
